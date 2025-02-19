@@ -6,7 +6,7 @@
 
 ------
 
-This is the official implementation for [AdapSafe: Adaptive and Safe-Certified Deep Reinforcement Learning-Based Frequency Control for Carbon-neutral Power Systems], which proposes a novel **DRL-based frequency control framework**, AdapSafe, to simultaneously address the two crucial challenges of **safety guarantee and adaptiveness enhancement in a non-stationary environment** to facilitate its real-world applications.
+This is the official implementation for ["AdapSafe: Adaptive and Safe-Certified Deep Reinforcement Learning-Based Frequency Control for Carbon-neutral Power Systems"](https://doi.org/10.1609/aaai.v37i4.25660), which proposes a novel **DRL-based frequency control framework**, AdapSafe, to simultaneously address the two crucial challenges of **safety guarantee and adaptiveness enhancement in a non-stationary environment** to facilitate its real-world applications.
 
 ### Environment
 
@@ -60,10 +60,11 @@ python main.py --test --max_test_episode 4
 python main.py --multi_test --test_tasks 50
 ```
 
-### Cite
+## Cite
 
-If you find this resource helpful, please consider starting this repository and cite our research:
- 
+If you find this work helpful for your research, please consider citing our paper:
+
+```bibtex
 @inproceedings{wan2023adapsafe,
   title={AdapSafe: adaptive and safe-certified deep reinforcement learning-based frequency control for carbon-neutral power systems},
   author={Wan, Xu and Sun, Mingyang and Chen, Boli and Chu, Zhongda and Teng, Fei},
